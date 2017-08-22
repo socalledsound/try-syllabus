@@ -1,10 +1,15 @@
 body {
 	background-color: #46094c;
+	font-family: 'Century Gothic',AppleGothic,'CenturyGothic',sans-serif;
 
 }
 
+.main-nav-list {
+link-style:none;
+}
+
 .my-nav {
-	  background-color: black;
+	 /* background-color: #10344c;*/
 	  color:#fff;	
 	  font-size:20px;
 	 	/*padding: 10px; */
@@ -14,16 +19,25 @@ body {
 }
 
 .nav-header {
-		    display: flex;
+		 display: flex;
 	    flex-direction: row;
 	    flex-wrap:wrap;
 	    padding:20px;
 	    margin-left:10px;
+	    list-style-type: none;
+	    text-decoration: none;
+
 }
 
 .nav-main a{
+	 /*background-color: black;*/
 	color:#e82edb;
+	color:#f95276;
+	border:solid;
+	border-radius: 5px;
 	font-size:20px;
+	padding:10px;
+	text-decoration: none;
 }
 
 .nav-sub  {
@@ -36,70 +50,83 @@ body {
 
 #navRules a {
 	color: #fff;
-	margin-left:20px;
-	font-size:20px;
+	color:#f95276;
+	margin-left:15px;
+	font-size:14px;
+	text-decoration: none;
 }
 
 
 
 #app {
-	margin-top: 20px;
+	margin-top: 5px;
+	margin-left:-10px;
 }
 
 
 .currentSession {
-	background-color: #2205ff;
+	background-color: #46094c;
 	color:#f7c5be;
 	font-size: 20px;
 	padding:5px;
 	margin: 5px 5px 5px 15px;
 	padding-left: 15px;
-	width:300px;
+	width:360px;
 }
 
 .allSessions {
-	background-color: #2205ff;
+	background-color: #46094c;
+	border-style: dotted;
+	border-color: red;
+
 	color:#f7c5be;
+	color:#07efef;
 	font-size: 20px;
-	padding:5px;
-	margin: 5px 5px 5px 25px;
-	padding-left: 15px;
-	width:300px;
+	/*padding:1px;*/
+	margin: 2px 2px 2px 2px;
+	padding-left: 10px;
+	/*padding-top:0.2px;*/
+	width:360px;
+	/*height:40px;*/
 	border-radius: 2%;
 }
 
 
-ul {
+/*ul {
   padding: 0;
   color:red;
+}*/
+
+/*li {
+	
+	font-size:16px;
+}*/
+
+.linkz-list li {
+  list-style-type: none;
 }
 
-li {
-	list-style-type: none;
+
+.sessionLink {
+	color:#fff;
 	font-size:16px;
 }
 
-.linkz li {
-  
-  color:#e82edb;
-  font-size:16px;
-}
 
-
-.linkz a {
-	color:#e82edb;
+ a:hover{
+	color:red;
 	font-size:16px;
 }
 
 
 
 .linkz {
-	color:#060638;
+	color:#19cce8;
 	font-size:16px;
 }
 
 .tutorialz {
-	color:#060638;
+	color:#19cce8;
 	font-size:16px;
 }
 
@@ -110,25 +137,33 @@ li {
 
 
 .assignment {
-	color:#19cce8;
+	
+	color:#ef073d;
 	font-size:16px;
 }
 
 
 .all-title {
 	color: #e82edb;
+	color:#fff;
+	/*color: #10344c;*/
 	font-size: 22px;
 	margin-left: 10px;
 }
 
 
+.all-title a:hover {
+	color:red;
+}
+
 .button {
   color: #e6e6e6;
   background: #46094c;
-  border: none;
-  font-size: 16px;
+  border-style: solid;
+  border-color: white;
+  font-size: 12px;
   border-radius: 3px;
-  width: 80px;
+  width: 160px;
   text-align: center;
   display: block;
   padding: 7px 0;
