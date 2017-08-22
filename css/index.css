@@ -149,4 +149,11 @@ li {
 
 .rulesText  {
 	color:white;
+	margin-left: 20px;
+	width:400px;
+}
+
+.mailLink {
+	color: #e82edb;
+	margin-left: 10px;
 }
