@@ -6,6 +6,7 @@ body {
 .my-nav {
 	  background-color: black;
 	  color:#fff;	
+	  font-size:20px;
 	 	/*padding: 10px; */
 
  /* justify-content: space-around;*/
@@ -22,6 +23,7 @@ body {
 
 .nav-main a{
 	color:#e82edb;
+	font-size:20px;
 }
 
 .nav-sub  {
@@ -35,6 +37,7 @@ body {
 #navRules a {
 	color: #fff;
 	margin-left:20px;
+	font-size:20px;
 }
 
 
