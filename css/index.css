@@ -5,15 +5,29 @@ body {
 
 .navbar {
 	  background-color: black;
-	  
+	  color:#fff;	  
 }
 
-.navbar-nav {
+.navbar-brand a{
+	color:#e82edb;
+}
+
+.navbar-sub  {
   color: #fff;
 
   margin-left: 30px;
-  margin-top:15px;
+  margin-top:12px;
  /* background-color:blue;*/
+}
+
+#navRules a {
+	color: #fff;
+}
+
+
+
+#app {
+	margin-top: 100px;
 }
 
 
@@ -45,15 +59,23 @@ ul {
 }
 
 li {
-  list-style-type: none;
+	list-style-type: none;
+	font-size:16px;
+}
+
+.linkz li {
+  
   color:#e82edb;
   font-size:16px;
 }
 
-a {
+
+.linkz a {
 	color:#e82edb;
 	font-size:16px;
 }
+
+
 
 .linkz {
 	color:#060638;
