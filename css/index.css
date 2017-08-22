@@ -1,0 +1,114 @@
+body {
+	background-color: #46094c;
+
+}
+
+.navbar {
+	  background-color: black;
+	  
+}
+
+.navbar-nav {
+  color: #fff;
+
+  margin-left: 30px;
+  margin-top:15px;
+ /* background-color:blue;*/
+}
+
+
+.currentSession {
+	background-color: #2205ff;
+	color:#f7c5be;
+	font-size: 20px;
+	padding:5px;
+	margin: 5px 5px 5px 15px;
+	padding-left: 15px;
+	width:300px;
+}
+
+.allSessions {
+	background-color: #2205ff;
+	color:#f7c5be;
+	font-size: 20px;
+	padding:5px;
+	margin: 5px 5px 5px 25px;
+	padding-left: 15px;
+	width:300px;
+	border-radius: 2%;
+}
+
+
+ul {
+  padding: 0;
+  color:red;
+}
+
+li {
+  list-style-type: none;
+  color:#e82edb;
+  font-size:16px;
+}
+
+a {
+	color:#e82edb;
+	font-size:16px;
+}
+
+.linkz {
+	color:#060638;
+	font-size:16px;
+}
+
+.tutorialz {
+	color:#060638;
+	font-size:16px;
+}
+
+.title {
+	font-size: 28px;
+	margin-left: 10px;
+}
+
+
+.assignment {
+	color:#19cce8;
+	font-size:16px;
+}
+
+
+.all-title {
+	color: #e82edb;
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+
+.button {
+  color: #e6e6e6;
+  background: #46094c;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 80px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: 5px;
+  margin-bottom: 30px;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+
+.rulesText  {
+	color:white;
+}
