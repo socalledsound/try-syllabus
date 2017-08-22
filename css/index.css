@@ -5,7 +5,8 @@ body {
 
 .my-nav {
 	  background-color: black;
-	  color:#fff;	  
+	  color:#fff;	
+	  height:80px;  
 
  /* justify-content: space-around;*/
 
@@ -39,7 +40,7 @@ body {
 
 
 #app {
-	margin-top: 20px;
+	margin-top: -20px;
 }
 
 
