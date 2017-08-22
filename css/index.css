@@ -3,31 +3,43 @@ body {
 
 }
 
-.navbar {
+.my-nav {
 	  background-color: black;
 	  color:#fff;	  
+
+ /* justify-content: space-around;*/
+
 }
 
-.navbar-brand a{
+.nav-header {
+		    display: flex;
+	    flex-direction: row;
+	    flex-wrap:wrap;
+	    padding:10px;
+	    margin-left:10px;
+}
+
+.nav-main a{
 	color:#e82edb;
 }
 
-.navbar-sub  {
+.nav-sub  {
   color: #fff;
 
-  margin-left: 30px;
-  margin-top:12px;
+/*  margin-left: 30px;
+  margin-top:12px;*/
  /* background-color:blue;*/
 }
 
 #navRules a {
 	color: #fff;
+	margin-left:20px;
 }
 
 
 
 #app {
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 
